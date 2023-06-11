@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+:root{
+    --font-Family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --border-Radius:5px;
+    --height:2rem;
+    --width:6rem;
+    
+}
+body{
+    background-color: rgba(255, 249, 249, 0.89);
+}
+/* first style section start  */
+.Style-Section{
+    position: relative;
+    height: 50px;
+    width: 60%;
+    
+    margin: 0 auto;
+    border-radius: var(--border-Radius);
+    background-color: #35b7b7;
+  
+    
+}
+
+
+.Style-Section{
+    margin-top: 40px;
+
+}
+
+.Style-Section-childDiv{
+    position: absolute;
+   display: flex;
+   left: 10%;
+
+    
+
+}
+
+.font-Size-Section,.background-section,.font-color-secection{
+    margin: .5rem .10rem;
+}
+#font-size-Select,#background-Color,#font-color{
+    height: var(--height);
+    width: var(--width);
+    font-size: 20px;
+    font-family:var(--font-Family);
+    border-radius: var(--border-Radius);
+}
+label{
+    font-size: 1.4rem;
+    color: rgb(107, 227, 245);
+}
+
+
+
+/* first style section End  */
+
+.Text-Section{
+    position: relative;
+    height:50vh ;
+    width: 50%;
+    margin: 0 auto;
+   
+    margin-top: 3rem;
+ 
+    
+}
+textarea{
+    position: absolute;
+    height:50vh ;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 4px solid #35b7b7;
+    
+}
+
+/* responsive DEsign */
+@media(max-width:1250px){
+    .Style-Section-childDiv{
+        left: 0px;
+    }
+}
+
+@media(max-width:1131px){
+    .Style-Section-childDiv{
+  
+       left: 10%;
+   
+    }
+    .Style-Section{
+        width: 100%;
+   
+
+    }
+    .font-Size-Section,.background-section,.font-color-secection{
+        margin: .5rem 1rem;
+    }
+    .Text-Section{
+        margin-left:10%;
+        width: 80%;
+    }
+}
+@media(max-width:910px){
+    .Style-Section-childDiv{
+        left: 5%;
+    }
+
+}
+@media(max-width:786px){
+    .Style-Section{
+       height: 70px;
+   
+
+    }
+
+}
+@media(max-width:754px){
+    .font-Size-Section,.background-section,.font-color-secection{
+        margin: .5rem .10rem;
+    }
+    .Style-Section{
+        height: 70px;
+    }
+    .Text-Section{
+        margin-left:3%;
+        width: 90%;
+    }
+   
+
+}
+
+@media(max-width:445px){
+
+   
+    label{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media(max-width:380px){
+  
+    .Style-Section{
+        height: 130px;
+    }
+    .Style-Section-childDiv{
+        position: absolute;
+       display:block;
+       left: 10%;
+    
+    }   
+    
+
+}
+@media(max-width:287px){
+ 
+    .Style-Section-childDiv{
+  
+       
+       left:0%;
+    
+    } 
+}
+
+@media(max-width:266px){
+ label{
+    font-size: 1rem;
+ }
+ #background-Color{
+    width: 4rem;
+ }
+
+}
+
